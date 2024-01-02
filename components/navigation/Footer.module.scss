@@ -1,0 +1,20 @@
+@import "@/styles/variables.scss";
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	background-color: $lightgray-color;
+	color: $main-white-color;
+	user-select: none;
+
+	span {
+		color: $main-green-color;
+		font-weight: bold;
+		letter-spacing: 5px;
+	}
+}

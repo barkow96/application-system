@@ -1,0 +1,28 @@
+@import "@/styles/variables.scss";
+
+.button {
+	display: block;
+	min-width: 100px;
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	background-color: $main-green-color;
+	color: $main-white-color;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.button:hover {
+	background-color: $main-green-color;
+	transform: scale(1.02);
+}
+
+.button:disabled,
+.button:disabled:hover,
+.button:disabled:active {
+	font-weight: bold;
+	background-color: $main-white-color;
+	color: $darkgray-color;
+	border-color: $main-red-color;
+	cursor: not-allowed;
+}

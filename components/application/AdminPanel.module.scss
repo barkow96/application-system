@@ -1,0 +1,13 @@
+.annotation-field {
+	width: 100%;
+	height: 50px;
+	margin-top: 5px;
+	vertical-align: text-top;
+	word-wrap: break-word;
+	resize: none;
+}
+
+.selections {
+	display: flex;
+	flex-direction: column;
+}

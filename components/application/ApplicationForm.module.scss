@@ -1,0 +1,15 @@
+@import "@/styles/variables.scss";
+
+.actions {
+	display: flex;
+	margin-top: 15px;
+}
+
+.error {
+	text-align: center;
+	color: $main-red-color;
+
+	span {
+		font-weight: bold;
+	}
+}

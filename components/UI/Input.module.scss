@@ -1,0 +1,64 @@
+@import "@/styles/variables.scss";
+
+.input {
+	margin-bottom: 10px;
+	padding: 0;
+
+	label {
+		display: inline-block;
+		width: 250px;
+	}
+
+	input {
+		width: 350px;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+}
+
+.icon {
+	margin-left: 10px;
+	font-size: 25px;
+	color: $darkgray-color;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.icon:hover {
+	transform: scale(1.25);
+}
+
+.not-clickable {
+	background-color: $gray-color;
+	border: none;
+	pointer-events: none;
+	user-select: none;
+}
+
+.invalid-text {
+	margin-left: 25px;
+	font-size: 10px;
+	font-weight: bold;
+	color: $main-red-color;
+}
+
+.comment-text {
+	font-weight: bold;
+	color: $main-red-color;
+}
+
+.comment-box {
+	width: 100%;
+	font-style: italic;
+}
+
+.green {
+	color: $main-green-color;
+}
+
+.corrected {
+	font-weight: bold;
+	color: $main-red-color;
+}
